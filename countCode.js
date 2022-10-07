@@ -8,4 +8,5 @@ function countCode(symbol) {
     if (code.startsWith(symbol)) total += 1;
   })
   console.log(total)
+  return total
 }
